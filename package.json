@@ -1,0 +1,1 @@
+{"name":"nerfherder","version":"0.0.0","description":"A node utility for traversing through remote directories and calculating a directory map and a hash checksum for each file.","main":"herd.js","scripts":{"test":"herd test"},"keywords":["Hash","Checksum"],"author":"Lui de la Parra","license":"ISC","dependencies":{"md5-file":"^2.0.4","walk":"^2.3.9"}}
