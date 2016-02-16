@@ -1,0 +1,620 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"fileStats〔argument〕"
+			],
+			[
+				"fi",
+				"fileStats"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"walk",
+				"walker〔variable〕"
+			],
+			[
+				"fil",
+				"fileStats〔argument〕"
+			],
+			[
+				"md",
+				"md5File"
+			],
+			[
+				"set",
+				"setEndDate"
+			],
+			[
+				"Re",
+				"RequestService"
+			],
+			[
+				"ge",
+				"getValues"
+			],
+			[
+				"for",
+				"for〔keyword〕"
+			],
+			[
+				"re",
+				"requestParams"
+			],
+			[
+				"t",
+				"typeof"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"const",
+				"constructURL"
+			],
+			[
+				"n",
+				"numOfDays"
+			],
+			[
+				"da",
+				"days"
+			],
+			[
+				"ev",
+				"eventRequestParams"
+			],
+			[
+				"eve",
+				"eventRequestParams〔variable〕"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"back",
+				"backgroundcolor"
+			],
+			[
+				"$rout",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"$rou",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"con",
+				"config	AngularJS"
+			],
+			[
+				"ng-",
+				"ng-bind	AngularJS"
+			],
+			[
+				"IC",
+				"IconRepeatPanel"
+			],
+			[
+				"mo",
+				"module	AngularJS"
+			],
+			[
+				"cha",
+				"characterImage"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"user",
+				"userService〔variable〕"
+			],
+			[
+				"get",
+				"getUsers"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"css",
+				"cssminfy"
+			],
+			[
+				"fon",
+				"font-stack"
+			],
+			[
+				"imp",
+				"import	keyword"
+			],
+			[
+				"Ar",
+				"Article	class"
+			],
+			[
+				"vo",
+				"voteDown	method"
+			],
+			[
+				"v",
+				"voteUp	method"
+			],
+			[
+				"stri",
+				"string	keyword"
+			],
+			[
+				"Sy",
+				"System"
+			],
+			[
+				"Sys",
+				"systemjs"
+			],
+			[
+				"i",
+				"import	keyword"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/js/app/all.min.js",
+			"settings":
+			{
+				"buffer_size": 2975,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/styles/styles.min.css",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/partials/weekmenu.html",
+			"settings":
+			{
+				"buffer_size": 364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "angular.module(\"IconRepeatPanel\", [\"ngRoute\"]).config([\"$routeProvider\", function($scope) {\n    $scope.when(\"/days\", {\n        templateUrl: \"./partials/daymenu.html\",\n        controller: \"dayMenu\"\n    }).when(\"/weeks\", {\n        templateUrl: \"./partials/weekmenu.html\",\n        controller: \"weekMenu\"\n    }).when(\"/months\", {\n        templateUrl: \"./partials/monthmenu.html\",\n        controller: \"monthMenu\"\n    }).otherwise({\n        redirectTo: \"/\"\n    })\n}]).controller(\"navigationMenu\", [\"$scope\", function($scope) {\n    $scope.menuItems = [{\n        name: \"Days\",\n        link: \"#days\"\n    }, {\n        name: \"Weeks\",\n        link: \"#weeks\"\n    }, {\n        name: \"Months\",\n        link: \"#months\"\n    }]\n}]).controller(\"actionMenu\", [\"$scope\", function($scope) {\n    $scope.clear = function() {\n        console.log(\"clear options\")\n    }, $scope.publish = function() {\n        console.log(\"publish events\")\n    }\n}]).controller(\"dayMenu\", [\"$scope\", function($scope) {\n    $scope.numOfDays = \"\", $scope.isChecked = function() {\n        console.log(\"checked\")\n    }\n}]).controller(\"weekMenu\", [\"$scope\", function($scope) {\n    $scope.message = \"You are on the week menu.\"\n}]).controller(\"monthMenu\", [\"$scope\", function($scope) {\n    $scope.message = \"You are on the month menu.\"\n}]);",
+			"file": "/Users/luidelaparra/Documents/Development/iConRepeat/src/app/js/all.js",
+			"file_size": 1246,
+			"file_write_time": 130990769300000000,
+			"settings":
+			{
+				"buffer_size": 1289,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "glue",
+		"selected_items":
+		[
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"set ",
+				"Set Syntax: Sass"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/luidelaparra/Documents/Development/iConRepeat",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public/js",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public/js/app",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public/partials",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public/styles",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/src",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/src/app",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/src/app/js",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/src/js",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/src/js/app"
+	],
+	"file_history":
+	[
+		"/Users/luidelaparra/Documents/Development/NerfHerder/iconrepeat.sublime-project",
+		"/Users/luidelaparra/Library/Application Support/Sublime Text 3/Packages/Glue/messages/help.txt",
+		"/Users/luidelaparra/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/luidelaparra/Documents/Development/NerfHerder/herd.js",
+		"/Users/luidelaparra/Documents/Development/NerfHerder/client/index.html",
+		"/Users/luidelaparra/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/luidelaparra/Documents/Development/MD5HashTest/herd.js",
+		"/Users/luidelaparra/Documents/Development/iConRepeat/public/js/app/all.min.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/partials/weekmenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/partials/monthmenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/partials/daymenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/styles/css/styles.css",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/styles/scss/iconrepeat.scss",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/js/app/app.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/js/app/all.min.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/index.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/gulpfile.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/app/js/all.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/index.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/styles/styles.min.css",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/styles/css/iconrepeat.css",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/styles/iconrepeat.css",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/templates/monthmenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/templates/weekmenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/templates/daymenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/templates/daymenu.html",
+		"/Users/luidelaparra/Desktop/iconrepeat/src/styles/iconrepeat.css",
+		"/Users/luidelaparra/Desktop/iconrepeat/devserver.js",
+		"/Users/luidelaparra/Documents/Development/gulping/gulpfile.js",
+		"/Users/luidelaparra/Desktop/iconrepeat/public/src/styles/scss/iconrepeat.scss",
+		"/Users/luidelaparra/Desktop/iconrepeat/package.json",
+		"/Users/luidelaparra/Documents/Development/gulping/package.json",
+		"/Users/luidelaparra/Documents/Development/gulping/index.html",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/4F7D1129-8C0B-4664-9578-52B427173910/characterImage.Directive.js",
+		"/Users/luidelaparra/Documents/Development/gulping/hashtest/prompt.js",
+		"/Users/luidelaparra/Documents/Development/gulping/hashtest/gulpfile.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/561FE94E-3DF6-4430-A4AA-C4EB56F6C9F5/index.html",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/7DDEDA66-AED8-4EE8-97FE-583A677DC913/userService.service.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/AAB0315C-7694-4509-98CA-A7856837350F/myapp.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/1EBB34EC-D8C1-46B8-B66E-4622A6C4DC63/mainView.controller.js",
+		"/Users/luidelaparra/Documents/Development/gulping/hashsum.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/E874240D-8F0D-4741-A3D4-727A535F1456/myapp.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/A56FBB5A-F23F-4E54-8371-61CFE36B4B25/server.js",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/C024CC15-EF27-4D98-AC37-553BEAB3163A/routes.js",
+		"/Users/luidelaparra/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/Mute Symphony Server",
+		"/var/folders/xj/5j6pp9r970509lk9y7lq69d40000gn/T/sublime-sftp-browse-1453613031/Mute Symphony Server/home/mxmink5/public_html/node/test.js",
+		"/Users/luidelaparra/Documents/Development/gulping/src/templates/Package Control Messages",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/45BBC407-9EC5-406A-AE73-2092EA714329/package.json",
+		"/Users/luidelaparra/Library/Caches/Cleanup At Startup/Transmit/E3F18280-3F59-4828-BF92-B6C76C40FE02/app.js",
+		"/Users/luidelaparra/Documents/Development/gulping/scss/firstsass.scss",
+		"/Users/luidelaparra/Documents/Development/gulping/dist/index.html",
+		"/Users/luidelaparra/Documents/Development/gulping/test.scss",
+		"/Users/luidelaparra/Documents/Development/gulping/js/test.js",
+		"/Users/luidelaparra/Documents/Development/ng-book-2-code/how_angular_works/inventory_app/app.ts",
+		"/Users/luidelaparra/Documents/Development/ng-book-2-code/first_app/angular2-reddit-base/index.html",
+		"/Users/luidelaparra/Documents/Development/ng-book-2-code/first_app/angular2-reddit-base/app.js",
+		"/Users/luidelaparra/Documents/Development/ng-book-2-code/first_app/angular2-reddit-base/app.ts",
+		"/Users/luidelaparra/Documents/Development/ng-book-2-code/first_app/angular2-reddit-base/Index.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"e",
+			"])",
+			"/public/",
+			"templates",
+			":\"#/",
+			" '-",
+			"source",
+			"}])",
+			"jade",
+			"        .",
+			"var",
+			"form",
+			"ul"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/js/app/all.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2558.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/styles/styles.min.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/luidelaparra/Documents/Development/iConRepeat/public/partials/weekmenu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/luidelaparra/Documents/Development/iConRepeat/src/app/js/all.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 84.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 202.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 42.0
+	},
+	"pinned_build_system": "",
+	"project": "iconrepeat.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -27,5 +27,5 @@ var walk = require('walk'),
   });
  
   walker.on("end", function () {
-    console.log("all done");
+    console.log("Finished Walking Directory");
   });
