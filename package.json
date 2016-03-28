@@ -11,10 +11,16 @@
     "Checksum"
   ],
   "author": "Lui de la Parra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luidog/NerfHerder.git"
+  },
   "license": "ISC",
   "dependencies": {
     "ftp-client": "^0.2.2",
+    "jsftp": "^1.5.3",
     "md5-file": "^2.0.4",
-    "walk": "^2.3.9"
+    "walk": "^2.3.9",
+    "winston": "^2.2.0"
   }
 }
